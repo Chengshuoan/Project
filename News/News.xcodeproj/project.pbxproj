@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C23F7A501B0EBF3B00F0E5C5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23F7A4F1B0EBF3B00F0E5C5 /* RootViewController.m */; };
 		C2F708171B0C8EBA00A45579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F708161B0C8EBA00A45579 /* main.m */; };
 		C2F7081A1B0C8EBA00A45579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F708191B0C8EBA00A45579 /* AppDelegate.m */; };
 		C2F708221B0C8EBA00A45579 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F708211B0C8EBA00A45579 /* Images.xcassets */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C23F7A4E1B0EBF3B00F0E5C5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C23F7A4F1B0EBF3B00F0E5C5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		C2F708111B0C8EBA00A45579 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F708151B0C8EBA00A45579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F708161B0C8EBA00A45579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 			children = (
 				C2F708181B0C8EBA00A45579 /* AppDelegate.h */,
 				C2F708191B0C8EBA00A45579 /* AppDelegate.m */,
+				C23F7A4E1B0EBF3B00F0E5C5 /* RootViewController.h */,
+				C23F7A4F1B0EBF3B00F0E5C5 /* RootViewController.m */,
 				C2F7083D1B0C90D800A45579 /* ToutiaoViewController.h */,
 				C2F7083E1B0C90D800A45579 /* ToutiaoViewController.m */,
 				C2F708401B0C90EE00A45579 /* CategoryViewController.h */,
@@ -237,6 +242,7 @@
 			files = (
 				C2F708421B0C90EE00A45579 /* CategoryViewController.m in Sources */,
 				C2F7081A1B0C8EBA00A45579 /* AppDelegate.m in Sources */,
+				C23F7A501B0EBF3B00F0E5C5 /* RootViewController.m in Sources */,
 				C2F708451B0C911700A45579 /* PersonalCenterViewController.m in Sources */,
 				C2F7083F1B0C90D800A45579 /* ToutiaoViewController.m in Sources */,
 				C2F708171B0C8EBA00A45579 /* main.m in Sources */,
